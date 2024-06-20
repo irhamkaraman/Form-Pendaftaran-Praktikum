@@ -37,7 +37,7 @@ Formulir ini menggunakan beberapa file CSS untuk memberikan gaya pada elemen-ele
     <div class="blob blob2"></div>
     <div class="blob blob3"></div>
     <div class="container">
-      <h2>Formulir Pendaftaran KTP</h2>
+      <h2>Formulir Pendaftaran Praktikum Pemrograman Web Semester 2</h2>
       <form action="proses.php" method="POST">
         <div class="coolinput">
           <label for="input" class="text">Nama:</label>
