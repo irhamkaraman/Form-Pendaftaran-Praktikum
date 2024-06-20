@@ -1,28 +1,4 @@
-# Formulir Pendaftaran Praktikum Pemrograman Web Semester 2
 
-Selamat datang di repositori GitHub untuk Formulir Pendaftaran Praktikum Pemrograman Web Semester 2. Repositori ini berisi kode sumber untuk formulir pendaftaran praktikum yang dapat digunakan untuk mendaftar ke kegiatan praktikum pemrograman web.
-
-## Tautan Repositori
-
-[Form-Pendaftaran-Praktikum](https://github.com/irhamkaraman/Form-Pendaftaran-Praktikum.git)
-
-## Deskripsi
-
-Proyek ini adalah sebuah formulir pendaftaran yang dirancang untuk mengumpulkan informasi dari peserta yang ingin mengikuti praktikum pemrograman web. Formulir ini dibuat menggunakan HTML dan CSS, dengan beberapa elemen desain yang menarik untuk meningkatkan pengalaman pengguna.
-
-## Fitur
-
-- **Nama:** Input untuk mengumpulkan nama lengkap peserta.
-- **Alamat:** Input untuk mengumpulkan alamat tempat tinggal peserta.
-- **Nomor Telepon:** Input untuk mengumpulkan nomor telepon peserta.
-- **Email:** Input untuk mengumpulkan alamat email peserta.
-- **Asal Instansi:** Input untuk mengumpulkan informasi mengenai asal instansi peserta.
-
-## Tampilan Formulir
-
-Formulir ini menggunakan beberapa file CSS untuk memberikan gaya pada elemen-elemen input. Berikut adalah tampilan formulir:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 
