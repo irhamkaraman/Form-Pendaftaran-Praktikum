@@ -1,74 +1,87 @@
-# Web Development Projects
+# Formulir Pendaftaran Praktikum Pemrograman Web Semester 2
 
-Welcome to my GitHub repository showcasing various web development projects. This repository contains a collection of projects I have worked on, ranging from simple web pages to complex web applications. Each project demonstrates different aspects of web development including front-end, back-end, and full-stack development.
+Selamat datang di repositori GitHub untuk Formulir Pendaftaran Praktikum Pemrograman Web Semester 2. Repositori ini berisi kode sumber untuk formulir pendaftaran praktikum yang dapat digunakan untuk mendaftar ke kegiatan praktikum pemrograman web.
 
-## Table of Contents
+## Tautan Repositori
 
-- [Introduction](#introduction)
-- [Projects](#projects)
-  - [Project 1: Simple Web Page](#project-1-simple-web-page)
-  - [Project 2: Responsive Portfolio](#project-2-responsive-portfolio)
-  - [Project 3: E-commerce Website](#project-3-e-commerce-website)
-  - [Project 4: Blog Platform](#project-4-blog-platform)
-  - [Project 5: Real-time Chat Application](#project-5-real-time-chat-application)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+[Form-Pendaftaran-Praktikum](https://github.com/irhamkaraman/Form-Pendaftaran-Praktikum.git)
 
-## Introduction
+## Deskripsi
 
-This repository serves as a showcase of my skills and experience in web development. It includes a variety of projects, each highlighting different technologies and techniques. Feel free to explore the projects, review the code, and provide feedback.
+Proyek ini adalah sebuah formulir pendaftaran yang dirancang untuk mengumpulkan informasi dari peserta yang ingin mengikuti praktikum pemrograman web. Formulir ini dibuat menggunakan HTML dan CSS, dengan beberapa elemen desain yang menarik untuk meningkatkan pengalaman pengguna.
 
-## Projects
+## Fitur
 
-### Project 1: Simple Web Page
-- **Description:** A basic HTML and CSS web page to practice fundamental web development skills.
-- **Features:** Static content, basic styling.
-- **Technologies:** HTML, CSS
-- **Link:** [Simple Web Page](./projects/simple-web-page)
+- **Nama:** Input untuk mengumpulkan nama lengkap peserta.
+- **Alamat:** Input untuk mengumpulkan alamat tempat tinggal peserta.
+- **Nomor Telepon:** Input untuk mengumpulkan nomor telepon peserta.
+- **Email:** Input untuk mengumpulkan alamat email peserta.
+- **Asal Instansi:** Input untuk mengumpulkan informasi mengenai asal instansi peserta.
 
-### Project 2: Responsive Portfolio
-- **Description:** A responsive portfolio website to showcase my work and skills.
-- **Features:** Responsive design, interactive elements, form validation.
-- **Technologies:** HTML, CSS, JavaScript
-- **Link:** [Responsive Portfolio](./projects/responsive-portfolio)
+## Tampilan Formulir
 
-### Project 3: E-commerce Website
-- **Description:** A full-fledged e-commerce website with product listings, shopping cart, and checkout functionality.
-- **Features:** User authentication, product management, shopping cart, payment integration.
-- **Technologies:** HTML, CSS, JavaScript, Node.js, Express, MongoDB
-- **Link:** [E-commerce Website](./projects/e-commerce-website)
+Formulir ini menggunakan beberapa file CSS untuk memberikan gaya pada elemen-elemen input. Berikut adalah tampilan formulir:
 
-### Project 4: Blog Platform
-- **Description:** A blog platform where users can create, edit, and delete posts. Users can also comment on posts.
-- **Features:** CRUD operations, user authentication, comment system.
-- **Technologies:** HTML, CSS, JavaScript, Node.js, Express, MongoDB
-- **Link:** [Blog Platform](./projects/blog-platform)
-
-### Project 5: Real-time Chat Application
-- **Description:** A real-time chat application using WebSockets.
-- **Features:** Real-time messaging, user authentication, chat rooms.
-- **Technologies:** HTML, CSS, JavaScript, Node.js, Express, Socket.io
-- **Link:** [Real-time Chat Application](./projects/real-time-chat-application)
-
-## Technologies Used
-
-This repository utilizes a wide range of technologies including but not limited to:
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express
-- MongoDB
-- Socket.io
-
-## Installation
-
-To run any of the projects locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/irhamkaraman/Form-Pendaftaran-Praktikum.git
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran Praktikum Pemrograman Web Semester 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blob.css" />
+  </head>
+  <body>
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+    <div class="container">
+      <h2>Formulir Pendaftaran KTP</h2>
+      <form action="proses.php" method="POST">
+        <div class="coolinput">
+          <label for="input" class="text">Nama:</label>
+          <input
+            type="text"
+            placeholder="Masukkan Nama Anda..."
+            name="nama"
+            class="input" />
+        </div>
+        <div class="coolinput">
+          <label for="input" class="text">Alamat:</label>
+          <input
+            type="text"
+            placeholder="Masukkan Alamat Anda..."
+            name="alamat"
+            class="input" />
+        </div>
+        <div class="coolinput">
+          <label for="input" class="text">Nomor Telepon:</label>
+          <input
+            type="number"
+            placeholder="Masukkan Nomor Telepon Anda..."
+            name="telepon"
+            class="input" />
+        </div>
+        <div class="coolinput">
+          <label for="input" class="text">Email:</label>
+          <input
+            type="email"
+            placeholder="Masukkan Email Anda..."
+            name="email"
+            class="input" />
+        </div>
+        <div class="coolinput">
+          <label for="input" class="text">Asal Instansi:</label>
+          <input
+            type="text"
+            placeholder="Masukkan Asal Intansi Anda..."
+            name="instansi"
+            class="input" />
+        </div>
+        <button>Kirim</button>
+      </form>
+    </div>
+  </body>
+</html>
+```
