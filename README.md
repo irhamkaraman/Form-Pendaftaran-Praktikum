@@ -71,4 +71,4 @@ To run any of the projects locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/web-development-projects.git
+   git clone https://github.com/irhamkaraman/Form-Pendaftaran-Praktikum.git
